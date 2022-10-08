@@ -7,12 +7,10 @@ if(x === 7){
 
 let a = 1;
 let b = 3;
-if(a <= 1){
-    alert('Равно 1');
-} else if(b >= 3){
-    alert('Равно 3');
+if(a <= 1 && b >= 3){
+    alert(a + b);
 } else{
-    alert('2');
+    alert(a - b);
 }
 
 let time = 10;
