@@ -33,7 +33,7 @@ console.log (result1); //false
 const user_cofee = 'Vanilla';
 const user_years = 20;
 const result2 = user_cofee === 'Boristo' && user_years > 10;
-console.log (result2); //true
+console.log (result2); //false
 
 const user_gta = 'samp';
 const user_fps = 60;
