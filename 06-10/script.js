@@ -1,5 +1,5 @@
 let x = 7;
-if(x <= 7){
+if(x === 7){
     alert('Верно');
 } else{
     alert('Неверно');
@@ -18,13 +18,12 @@ if(a <= 1){
 let time = 10;
 if (time >= 0 && time <= 14) {
     alert('В первую четверть.');
-}
-if (time >= 15 && time <= 30) {
+} else if(time >= 15 && time <= 30) {
     alert('Во вторую четверть.');
-}
-if (time >= 31 && time <= 45) {
+} else if(time >= 31 && time <= 45) {
     alert('В третью четверть.');
-}
-if (time >= 46 && time <= 59) {
+} else if(time >= 46 && time <= 59){
     alert('В четвертую четверть.');
+} else{
+    alert("Значение не попадает в диапазон от 0 до 59")
 }
