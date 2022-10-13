@@ -13,6 +13,6 @@ var x = {
 let result = x.a + x.b + x.c;
 console.log(result);
 
-let number = true;
-let date = (number === true) ? 3 : 5;
-console.log(date);
+let date = false;
+let number = (date === true) ? 3 : 5;
+console.log(number);
