@@ -38,7 +38,7 @@ console.log(result);
 const myFunc = (arraySize, value) => {
     let number = [];
     for(let i = 0; i < arraySize; i++){
-        number.push(arraySize[i] = value);
+        number.push(value);
     }
 
     return number;
