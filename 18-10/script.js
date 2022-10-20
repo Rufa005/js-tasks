@@ -48,8 +48,13 @@ let result = myFunc('a', 3);
 console.log(result);
 
 const reverse = (array) => {
-    let data = [1, 2, 3];
-    return data;
+    let d = [];
+    for(let i = array.length - 1; i >= 0; i--){
+        d.push(x[i]);
+    }
+
+    return d;
 }
 
-console.log(reverse(data));
+let result2 = data([1, 2, 3]);
+console.log(result2);
