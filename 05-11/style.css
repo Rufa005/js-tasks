@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+
+.main_danger{
+    display: flex;
+    font-size: 20px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+}
